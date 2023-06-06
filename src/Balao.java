@@ -1,7 +1,10 @@
 public class Balao {
-    String numIdenti, regisRegularidade;
+    int id, capacidade;
+    double altura, peso;
+    String regisRegularidade, cor, tipo, porte;
 
-    public void voar(Piloto piloto, Pessoa pessoa){
-        System.out.println("vou com o " + piloto +" e com " + pessoa);
+
+    public String voar(){
+        return "voando";
     }
 }
