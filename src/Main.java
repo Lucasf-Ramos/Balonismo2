@@ -14,8 +14,14 @@ public class Main {
 
 
         Pessoa pessoa = new Pessoa();
+
+
+        pessoa.busca();
+        pessoa.paga();
         pessoa.preencherCadastro();
 
         pessoa.voar();
+        piloto.voar();
+        balao.voar(piloto, pessoa);
     }
 }

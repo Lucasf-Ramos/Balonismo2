@@ -15,6 +15,12 @@ public class Pessoa {
 
         assinatura = tcd.next();
     }
+    public void busca(){
+
+    }
+    public void paga(){
+
+    }
     public void voar(){
         System.out.println("ele voou");
     }
