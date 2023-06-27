@@ -6,22 +6,12 @@ public class Pessoa {
     String nome, cpf, rg, telefone, telefoneEmergencia, assinatura;
 
 
-    public void preencherCadastro(){
-        nome = tcd.nextLine();
-        cpf = tcd.next();
-        rg = tcd.next();
-        telefone = tcd.next();
-        telefoneEmergencia = tcd.next();
-
-        assinatura = tcd.next();
-    }
-    public void busca(){
-
-    }
-    public void paga(){
-
-    }
-    public void voar(){
-        System.out.println("ele voou");
+    Pessoa (String _nome, String _rg, String _cpf, String _telefone, String _telefoneEmergencia, String _assinatura){
+        this.nome = _nome;
+        this.cpf = _cpf;
+        this.rg = _rg;
+        this.telefone = _telefone;
+        this.telefoneEmergencia = _telefoneEmergencia;
+        this.assinatura = _assinatura;
     }
 }

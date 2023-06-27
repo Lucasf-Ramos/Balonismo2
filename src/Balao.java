@@ -5,6 +5,10 @@ public class Balao {
 
 
     public String voar(){
-        return "voando";
+        return id + " voando";
+    }
+    Balao (int _id){
+        this.id = _id;
+
     }
 }

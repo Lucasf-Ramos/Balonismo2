@@ -3,8 +3,9 @@
 public class Piloto {
 
     String nome, cpf, numRegis;
-    public void voar(){
-        System.out.println("o piloto voou");
+
+    Piloto(String _nome){
+        this.nome = _nome;
     }
 
 }
