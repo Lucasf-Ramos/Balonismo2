@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Balao b1 = new Balao(123);
+        Balao b1 = new Balao(123, 23, 100, "1dae125f", "preto", "que voa", "grande");
         Pessoa pessoa = new Pessoa("LUCAS", "20", "20", "20", "30", "LUCAS");
         Piloto piloto = new Piloto("Jorge");
 
